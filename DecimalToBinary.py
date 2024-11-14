@@ -1,16 +1,4 @@
 
-# def decToBinary(decNum):
-#     ans = 0
-#     power = 1  # Renamed to avoid confusion with the built-in pow() function
-
-#     while decNum > 0:
-#         rem = decNum % 2
-#         ans += (rem * power)
-#         power *= 10
-#         decNum //= 2  # Use integer division to update decNum
-    
-#     return ans  # Binary Form
-
 def decToBinary(decNum):
     ans = 0
     power = 1
