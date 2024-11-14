@@ -14,7 +14,7 @@ def decToBinary(decNum):
         ans += (rem * power)
         power *= 10
 
-    return ans # BInary Form
+    return ans # Binary Form returned
 
 def main():
     print("Convert a Number Decimal to Binary")
